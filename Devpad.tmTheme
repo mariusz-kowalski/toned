@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>author</key>
+  <string>Mariusz Kowalski</string>
+  <key>name</key>
+  <string>Devpad</string>
+  <key>semanticClass</key>
+  <string>theme.light.devpad</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#C5C5C5</string>
+        <key>caret</key>
+        <string>#000000</string>
+        <key>foreground</key>
+        <string>#000000</string>
+        <key>invisibles</key>
+        <string>#B3B3B3F4</string>
+        <key>lineHighlight</key>
+        <string>#FFFFFF77</string>
+        <key>selection</key>
+        <string>#BAD6FD</string>
+
+        <key>guide</key>
+        <string>#00000020</string>
+        <key>activeGuide</key>
+        <string>#000000</string>
+        <key>stackGuide</key>
+        <string>#00000020</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>constant, punctuation.definition.constant,string,punctuation.definition.string,storage.type.string,keyword.other.option-toggle,keyword.control.anchor,meta.property-value.css,keyword.other.unit.css,source.ruby.embedded.source string.quoted.single.ruby,source.ruby.embedded.source string.quoted.double.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#1371DC</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>constant.other.symbol.ruby.19syntax,constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#620096</string>
+        <!-- <string>#994200</string> -->
+        <!-- <string>#494949</string> -->
+        <!-- <key>background</key> -->
+        <!-- <string>#FBF6ED</string> -->
+        <key>fontStyle</key>
+        <string>normal</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>constant.language</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>variable.parameter.function.ruby constant.other.symbol.ruby.19syntax, variable.parameter.function.ruby constant.other.symbol.ruby.19syntax punctuation.definition.constant.ruby, string.quoted.other.literal.lower.ruby punctuation.definition.string.begin.ruby, string.quoted.other.literal.lower.ruby punctuation.definition.string.end.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000</string>
+        <!-- <key>fontStyle</key> -->
+        <!-- <string></string> -->
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>string.regexp,string.regexp punctuation.definition.string,string.regexp punctuation.definition</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B25800</string>
+        <key>fontStyle</key>
+        <string />
+      </dict>
+    </dict>
+
+    <dict>
+
+      <key>scope</key>
+      <string>string.regexp punctuation.definition</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string />
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+
+      <key>scope</key>
+      <string>string.interpolated,string.interpolated punctuation.definition.string.begin.ruby,string.interpolated punctuation.definition.string.end.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CF691A</string>
+      </dict>
+    </dict>
+
+    <dict>
+
+      <key>scope</key>
+      <string>string.interpolated punctuation.definition.string.begin.ruby,string.interpolated punctuation.definition.string.end.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string />
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+
+    <key>scope</key>
+      <string>keyword.control.def</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#008000</string>
+      </dict>
+    </dict>
+
+    <dict>
+
+      <key>scope</key>
+      <string>keyword,storage,string.unquoted.program-block.ruby,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.separator.inheritance.ruby,keyword.operator.assignment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#19AD1E</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+
+      <key>scope</key>
+      <string>comment, comment.block.xml</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00000060</string>
+        <key>background</key>
+        <string />
+      </dict>
+    </dict>
+
+    <dict>
+
+      <key>scope</key>
+      <string>comment.block.documentation</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00000080</string>
+
+
+        <key>background</key>
+
+        <string>#E7E7F3</string>
+        <key>fontStyle</key>
+        <string />
+      </dict>
+    </dict>
+
+    <dict>
+
+      <key>scope</key>
+      <string>punctuation.definition.comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00000030</string>
+
+        <key>fontStyle</key>
+        <string />
+      </dict>
+    </dict>
+
+
+    <dict>
+      <key>scope</key>
+      <string>keyword.operator,punctuation,punctuation.separator.variable,punctuation.separator,keyword.operator.assignment.augmented.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#545454</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>punctuation.section.embedded.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>normal</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>entity.name.function,entity.name.type,source.css meta.selector.css entity.name.tag.css,source.css meta.selector.css entity.other.attribute-name.class.css,source.css meta.selector.css entity.other.attribute-name.id.css</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#000000</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>punctuation.definition</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000</string>
+        <key>fontStyle</key>
+        <string />
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>source.ruby.rails.embedded.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000</string>
+        <key>background</key>
+        <string>#B8B8B8</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>source.ruby.embedded</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>source.ruby text.plain,string.unquoted.program-block.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#F3F3DA</string>
+      </dict>
+    </dict>
+
+    <dict>
+
+      <key>scope</key>
+      <string>source.ruby text.plain</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00000060</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+
+      <string>entity.name.tag,punctuation.definition.tag,entity.other.attribute-name,punctuation.separator.key-value.html,meta.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <!-- <string>#C4A14E</string> -->
+        <string>#737373</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.tag.script</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <!-- <string>#C4A14E</string> -->
+        <string>#000000</string>
+      </dict>
+    </dict>
+
+
+    <dict>
+
+      <key>scope</key>
+      <string>entity.name.tag,punctuation.definition.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.toc-list.id.html, meta.attribute-with-value.id.html punctuation.definition.string.begin.html, meta.attribute-with-value.id.html punctuation.definition.string.end.html, entity.other.attribute-name.id.css</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.attribute-with-value.id.html punctuation.separator.key-value.html</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string />
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>text.plain punctuation.definition</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#02A800</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>entity.name.type.object.js.firebug, support.function.js.firebug</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BB0000</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>markup.bold</string>
+      <key>settings</key>
+      <dict>
+        <!-- <key>foreground</key> -->
+        <!-- <string>#02A800</string> -->
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>markup.italic</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#0BC500</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>markup.heading</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#202FD7</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.diff.header</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>markup.inserted.diff</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#039200</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>markup.deleted.diff</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C00000</string>
+
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.diff.git-commit</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#545454</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>meta.diff.range.unified</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.heading.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#9B9B9B</string>
+        <key>fontStyle</key>
+        <string>normal</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>scope</key>
+      <string>source.css</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#E6E6E6</string>
+        <key>fontStyle</key>
+        <string />
+      </dict>
+    </dict>
+
+  <dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
+            </dict>
+        </dict></array>
+  <key>uuid</key>
+  <string>f93bf29a-f1fc-417b-b6b3-9b77c5cb6708</string>
+  <key>colorSpaceName</key>
+  <string>sRGB</string>
+</dict>
+</plist>
