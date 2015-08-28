@@ -35,6 +35,19 @@
       </dict>
     </dict>
 
+    <!-- reset -->
+    <dict>
+      <key>scope</key>
+      <string>meta.function-call.method.with-arguments.js entity.name.function.js,meta.function-call.method.without-arguments.js entity.name.function.js,meta.function-call.with-arguments.js entity.name.function.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000</string>
+        <key>fontStyle</key>
+        <string>normal</string>
+      </dict>
+    </dict>
+
     <!-- string -->
     <dict>
       <key>scope</key>
@@ -228,7 +241,7 @@
 
     <dict>
       <key>scope</key>
-      <string>entity.name.function,entity.name.type,source.css meta.selector.css entity.name.tag.css,source.css meta.selector.css entity.other.attribute-name.class.css,source.css meta.selector.css entity.other.attribute-name.id.css</string>
+      <string>entity.name.function.js,entity.name.type,source.css meta.selector.css entity.name.tag.css,source.css meta.selector.css entity.other.attribute-name.class.css,source.css meta.selector.css entity.other.attribute-name.id.css</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
