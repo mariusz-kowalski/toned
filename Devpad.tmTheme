@@ -241,7 +241,7 @@
 
     <dict>
       <key>scope</key>
-      <string>entity.name.function.js,entity.name.type,source.css meta.selector.css entity.name.tag.css,source.css meta.selector.css entity.other.attribute-name.class.css,source.css meta.selector.css entity.other.attribute-name.id.css</string>
+      <string>entity.name.function,entity.name.function.js,entity.name.type,source.css meta.selector.css entity.name.tag.css,source.css meta.selector.css entity.other.attribute-name.class.css,source.css meta.selector.css entity.other.attribute-name.id.css</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
