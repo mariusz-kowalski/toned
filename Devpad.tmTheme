@@ -62,7 +62,7 @@
     <!-- ruby-1.9 symbol -->
     <dict>
       <key>scope</key>
-      <string>constant.other.symbol.ruby.19syntax,constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber</string>
+      <string>constant.other.symbol.ruby.19syntax,constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber, constant.other.symbol.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
