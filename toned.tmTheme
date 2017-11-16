@@ -5,9 +5,9 @@
   <key>author</key>
   <string>Mariusz Kowalski</string>
   <key>name</key>
-  <string>Devpad</string>
+  <string>toned</string>
   <key>semanticClass</key>
-  <string>theme.light.devpad</string>
+  <string>theme.light.toned</string>
   <key>settings</key>
   <array>
     <dict>
@@ -38,7 +38,7 @@
     <!-- reset -->
     <dict>
       <key>scope</key>
-      <string>meta.function-call.method.with-arguments.js entity.name.function.js,meta.function-call.method.without-arguments.js entity.name.function.js,meta.function-call.with-arguments.js entity.name.function.js</string>
+      <string>meta.function-call.method.with-arguments.js entity.name.function.js,meta.function-call.method.without-arguments.js entity.name.function.js,meta.function-call.with-arguments.js entity.name.function.js, keyword.other.special-method.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -59,10 +59,23 @@
       </dict>
     </dict>
 
+    <!-- string special character -->
+    <dict>
+      <key>scope</key>
+      <string>constant.character.escape, punctuation.section.embedded</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#095dbe</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
     <!-- ruby-1.9 symbol -->
     <dict>
       <key>scope</key>
-      <string>constant.other.symbol.ruby.19syntax,constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber, constant.other.symbol.ruby</string>
+      <string>constant.other.symbol.ruby.19syntax,constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber, constant.other.symbol.ruby, punctuation.definition.constant.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -90,7 +103,7 @@
     <!-- name definitions -->
     <dict>
       <key>scope</key>
-      <string>variable.parameter.function.ruby constant.other.symbol.ruby.19syntax, variable.parameter.function.ruby constant.other.symbol.ruby.19syntax punctuation.definition.constant.ruby, string.quoted.other.literal.lower.ruby punctuation.definition.string.begin.ruby, string.quoted.other.literal.lower.ruby punctuation.definition.string.end.ruby</string>
+      <string>string.quoted.other.literal.lower.ruby punctuation.definition.string.begin.ruby, string.quoted.other.literal.lower.ruby punctuation.definition.string.end.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -166,7 +179,7 @@
     <!-- keyword -->
     <dict>
       <key>scope</key>
-      <string>keyword,storage,string.unquoted.program-block.ruby,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.separator.inheritance.ruby,keyword.operator.assignment</string>
+      <string>keyword,storage,string.unquoted.program-block.ruby,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.separator.inheritance.ruby,keyword.operator.assignment, keyword.operator.conditional</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -229,19 +242,20 @@
       </dict>
     </dict>
 
+    <!-- special-method.ruby -->
     <dict>
       <key>scope</key>
-      <string>punctuation.section.embedded.ruby</string>
+      <string>keyword.other.special-method.ruby</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string>normal</string>
+        <string>italic</string>
       </dict>
     </dict>
 
     <dict>
       <key>scope</key>
-      <string>entity.name.function,entity.name.function.js,entity.name.type,source.css meta.selector.css entity.name.tag.css,source.css meta.selector.css entity.other.attribute-name.class.css,source.css meta.selector.css entity.other.attribute-name.id.css</string>
+      <string>entity.name.function,entity.name.function.js,entity.name.type,source.css meta.selector.css entity.name.tag.css,source.css meta.selector.css entity.other.attribute-name.class.css,source.css meta.selector.css entity.other.attribute-name.id.css, entity.name.class.ruby</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -283,6 +297,8 @@
       <dict>
         <key>foreground</key>
         <string>#000000</string>
+        <!-- <key>background</key>
+        <string>#cccac2</string> -->
       </dict>
     </dict>
 
