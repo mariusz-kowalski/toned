@@ -32,6 +32,20 @@
         <string>#000000</string>
         <key>stackGuide</key>
         <string>#00000020</string>
+
+        <key>bracketsOptions</key>
+        <string>foreground</string>
+        <key>bracketsForeground</key>
+        <string>#0029f5</string>
+        <key>bracketContentsOptions</key>
+        <string>foreground</string>
+        <key>bracketContentsForeground</key>
+        <string>#0029f5</string>
+
+        <key>tagsOptions</key>
+        <string>foreground</string>
+        <key>tagsForeground</key>
+        <string>#0029f5</string>
       </dict>
     </dict>
 
