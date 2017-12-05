@@ -36,16 +36,16 @@
         <key>bracketsOptions</key>
         <string>foreground</string>
         <key>bracketsForeground</key>
-        <string>#0029f5</string>
+        <string>#C700FF</string>
         <key>bracketContentsOptions</key>
         <string>foreground</string>
         <key>bracketContentsForeground</key>
-        <string>#0029f5</string>
+        <string>#C700FF</string>
 
         <key>tagsOptions</key>
         <string>foreground</string>
         <key>tagsForeground</key>
-        <string>#0029f5</string>
+        <string>#C700FF</string>
       </dict>
     </dict>
 
@@ -80,7 +80,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#095dbe</string>
+        <string>#7589A1</string>
         <key>fontStyle</key>
         <string>bold</string>
       </dict>
