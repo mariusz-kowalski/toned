@@ -516,18 +516,6 @@
     </dict>
 
     <dict>
-      <key>scope</key>
-      <string>source.css</string>
-      <key>settings</key>
-      <dict>
-        <key>background</key>
-        <string>#E6E6E6</string>
-        <key>fontStyle</key>
-        <string />
-      </dict>
-    </dict>
-
-    <dict>
       <key>name</key>
       <string>SublimeLinter Warning</string>
       <key>scope</key>
