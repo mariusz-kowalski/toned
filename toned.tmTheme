@@ -166,7 +166,7 @@
     <dict>
 
       <key>scope</key>
-      <string>string.interpolated punctuation.definition.string.begin.ruby,string.interpolated punctuation.definition.string.end.ruby</string>
+      <string>string.interpolated punctuation.definition.string.begin.ruby,string.interpolated punctuation.definition.string.end.ruby, entity.name.class.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
