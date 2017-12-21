@@ -86,10 +86,10 @@
       </dict>
     </dict>
 
-    <!-- ruby-1.9 symbol -->
+    <!-- ruby symbol; js object key -->
     <dict>
       <key>scope</key>
-      <string>constant.other.symbol.ruby.19syntax,constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber, constant.other.symbol.ruby, punctuation.definition.constant.ruby</string>
+      <string>constant.other.symbol.ruby.19syntax,constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber, constant.other.symbol.ruby, punctuation.definition.constant.ruby, constant.other.object.key.js string.unquoted.label.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
