@@ -65,7 +65,7 @@
     <!-- string -->
     <dict>
       <key>scope</key>
-      <string>constant, punctuation.definition.constant,string,punctuation.definition.string,storage.type.string,keyword.other.option-toggle,keyword.control.anchor,meta.property-value.css,keyword.other.unit.css,source.ruby.embedded.source string.quoted.single.ruby,source.ruby.embedded.source string.quoted.double.ruby</string>
+      <string>constant, punctuation.definition.constant,string,punctuation.definition.string,storage.type.string,keyword.other.option-toggle,keyword.control.anchor,meta.property-value.css,keyword.other.unit.css,source.ruby.embedded.source string.quoted.single.ruby,source.ruby.embedded.source string.quoted.double.ruby, string.interpolated.js, keyword.other.template.end.js, keyword.other.template.begin.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -76,7 +76,7 @@
     <!-- string special character -->
     <dict>
       <key>scope</key>
-      <string>constant.character.escape, punctuation.section.embedded</string>
+      <string>constant.character.escape, punctuation.section.embedded, keyword.other.substitution.begin.js, keyword.other.substitution.end.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
