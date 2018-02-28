@@ -62,10 +62,10 @@
       </dict>
     </dict>
 
-    <!-- string -->
+    <!-- string, (symbol.18syntax - requires special modification to Ruby.sublime-syntax, see: https://github.com/mariusz-kowalski/Ruby.sublime-syntax) -->
     <dict>
       <key>scope</key>
-      <string>constant, punctuation.definition.constant,string,punctuation.definition.string,storage.type.string,keyword.other.option-toggle,keyword.control.anchor,meta.property-value.css,keyword.other.unit.css,source.ruby.embedded.source string.quoted.single.ruby,source.ruby.embedded.source string.quoted.double.ruby, string.interpolated.js, keyword.other.template.end.js, keyword.other.template.begin.js</string>
+      <string>constant, punctuation.definition.constant,string,punctuation.definition.string,storage.type.string,keyword.other.option-toggle,keyword.control.anchor,meta.property-value.css,keyword.other.unit.css,source.ruby.embedded.source string.quoted.single.ruby,source.ruby.embedded.source string.quoted.double.ruby, string.interpolated.js, keyword.other.template.end.js, keyword.other.template.begin.js, constant.other.symbol.ruby.18syntax, constant.other.symbol.ruby.18syntax punctuation.definition.constant.ruby, constant.other.symbol.single-quoted.ruby.18syntax, constant.other.symbol.single-quoted.ruby.18syntax punctuation.definition.constant.ruby, constant.other.symbol.double-quoted.ruby.18syntax, constant.other.symbol.double-quoted.ruby.18syntax punctuation.definition.constant.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -89,7 +89,7 @@
     <!-- ruby symbol; js object key -->
     <dict>
       <key>scope</key>
-      <string>constant.other.symbol.ruby.19syntax,constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber, constant.other.symbol.ruby, punctuation.definition.constant.ruby, constant.other.object.key.js string.unquoted.label.js</string>
+      <string>constant.other.symbol.ruby.19syntax, constant.other.symbol.ruby.19syntax punctuation.definition.constant, constant.other.php, storage.type.tag.cucumber, constant.other.symbol.ruby, punctuation.definition.constant.ruby, constant.other.object.key.js string.unquoted.label.js, constant.other.symbol.ruby, constant.other.symbol.ruby punctuation.definition.constant.ruby, constant.other.symbol.single-quoted.ruby, constant.other.symbol.double-quoted.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

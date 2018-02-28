@@ -3,7 +3,7 @@ require 'set'
 # Dummy class that does dummy things
 
 class Person
-  attr_accessor :Paddress
+  attr_accessor :address
   attr_reader :skills
 
   def initialize(first_name, last_name)
