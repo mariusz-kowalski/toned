@@ -519,11 +519,28 @@
       <key>name</key>
       <string>SublimeLinter Warning</string>
       <key>scope</key>
-      <string>sublimelinter.mark.warning</string>
+      <string>region.yellowish</string>
       <key>settings</key>
       <dict>
-          <key>foreground</key>
-          <string>#DDB700</string>
+        <key>foreground</key>
+        <string>#E87B00</string>
+        <!-- for 'fill' style: (comment out if you are use other style) -->
+        <key>background</key>
+        <string>#D4D2CA</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Error</string>
+      <key>scope</key>
+      <string>region.redish</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E02000</string>
+        <!-- for 'fill' style: (comment out if you are use other style) -->
+        <key>background</key>
+        <string>#E8E7E4</string>
       </dict>
     </dict>
     <dict>
@@ -533,19 +550,8 @@
       <string>sublimelinter.gutter-mark</string>
       <key>settings</key>
       <dict>
-          <key>foreground</key>
-          <string>#FFFFFF</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>SublimeLinter Error</string>
-      <key>scope</key>
-      <string>sublimelinter.mark.error</string>
-      <key>settings</key>
-      <dict>
-          <key>foreground</key>
-          <string>#D02000</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
       </dict>
     </dict>
   </array>
