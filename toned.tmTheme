@@ -543,6 +543,7 @@
         <string>#E8E7E4</string>
       </dict>
     </dict>
+
     <dict>
       <key>name</key>
       <string>SublimeLinter Gutter Mark</string>
