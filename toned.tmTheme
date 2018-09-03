@@ -246,7 +246,7 @@
 
     <dict>
       <key>scope</key>
-      <string>keyword.operator,punctuation,punctuation.separator.variable,punctuation.separator,keyword.operator.assignment.augmented.ruby</string>
+      <string>keyword.operator,punctuation,punctuation.separator.variable,punctuation.separator</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
