@@ -13,8 +13,9 @@
     <dict>
       <key>settings</key>
       <dict>
+        <!-- background color of the gutter -->
         <key>background</key>
-        <string>#D4D2CB</string>
+        <string>#c5c3ba</string>
         <key>caret</key>
         <string>#000000</string>
         <key>foreground</key>
@@ -46,6 +47,19 @@
         <string>foreground</string>
         <key>tagsForeground</key>
         <string>#C700FF</string>
+      </dict>
+    </dict>
+
+    <!-- background color of the text -->
+    <dict>
+      <key>name</key>
+      <string>Source base background</string>
+      <key>scope</key>
+      <string>text, source</string>
+      <key>settings</key>
+      <dict>
+      <key>background</key>
+      <string>#D4D2CB</string>
       </dict>
     </dict>
 
